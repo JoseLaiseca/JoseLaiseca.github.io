@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicomV8.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi CV</title>
+</head>
+<body>
+    
+    <!--------------------------------ENCABEZADO------------------------------------>
+    
+    <!-- <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">Welcome to my CV</p>
+    </header> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3" id="menu">
+        <div class="container-fluid">
+            <div id="iconos-nav">
+                <a href="https://github.com/JoseLaiseca" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://linkedin.com/in/JoseLaiseca" target="_blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://web.whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            </div>
+            <a class="navbar-brand" href="#">
+                <span class="text-primary fs-5 fw-bold" ></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/JoseLaiseca/joselaiseca.github.io" target="_blank">Documentación</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#seccion-contacto">Contacto</a>
+                    </li>
+                </ul>  
+            </div>
+        </div>
+    </nav>
+    
+    <section class="w-50 mx-auto text-center pt-5" id="intro">
+    <h2 id="typewriter"></h2>
+    </section>
+
+    <div class="mt-5 text-center">
+        <img class="rounded mx-auto d-block mb-3" id="perfil" src="./img/foto-CV.jpg" width="200" height="240" alt="miPerfil">
+    </div>
+    
+    <!--------------------------------Intro------------------------------------>
+
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto  servicio-fila">
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex flex-column align-items-center my-5 icono-grap ">    
+                <img src="./img/avatar.png" alt="desarrollador" width="180" height="160">
+                <a href="#sobremi" class="fs-5 mt-4 px-4 pb-1 ">Sobre mi</a>                    
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex  my-5 icono-grap flex-column align-items-center">
+                <img src="./img/graduado.png" alt="desarrollador" width="180" height="160">
+                <a href="#estudios" class="fs-5 mt-4 px-4 pb-1">Estudios</a>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex  my-5 icono-grap flex-column align-items-center">
+                <img src="./img/office_folder_icon_219452.png" alt="desarrollador" width="180" height="160">
+                <a href="#cursos" class="fs-5 mt-4 px-4 pb-1">Cursos</a>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex  my-5 icono-grap flex-column align-items-center">
+                <img src="./img/avatar_contruction_worker_job_man_person_icon_221277.png" alt="desarrollador" width="180" height="160">
+                <a href="#exp" class="fs-5 mt-4 px-4 pb-1">Experiencias</a>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex  my-5 icono-grap flex-column align-items-center">
+                <img src="./img/idea.png" alt="desarrollador" width="180" height="160">
+                <a href="#emp" class="fs-5 mt-4 px-4 pb-1">Emprendimientos</a>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 d-flex  my-5 icono-grap flex-column align-items-center">
+                <img src="./img/acerca-de.png" alt="desarrollador" width="180" height="160">
+                <a href="#contacto" class="fs-5 mt-4 px-4 pb-1">Datos personales</a>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------------Acerca de mi------------------------------------>
+
+    <section class="w-75 m-auto text-center">
+        <section id="sobremi" >
+            <div  id="equipo">
+                <hr class="border border-danger border-2 opacity-50">
+                <h1  class="mb-5 fs-2">Un poco más sobre <span class="text-primary"> Mi</span></h1>
+                <p class="fs-4">Me egresé de un secundario técnico donde aprendí mucho sobre electrónica, eso me llevo a estudiar en el año 2011 Ingeniería Electrónica en la Universidad Tecnológica Nacional de Córdoba, por una cuestión de tiempo en el año 2017 decidí pausar la carrera e hice Tecnicatura Universitaria Mecatrónica donde me recibí en el 2020. 
+                Trabaje durante 2 años en este rubro como técnico, pero no sentía esa pasión de hacer lo que a uno le gusta, por ese motivo en el año 2021 comencé a estudiar “Python Developer” en un instituto de Buenos Aires (EducaciónIT) donde siento que estoy adentrandome en un mundo lleno de desafíos, donde por un ejercicio puedes estar sentados horas frente de la computadora renegando porque no te sale, pero lo más lindo es la sensación que te da cuando lo resuelves. 
+                Eso es lo que busco para mi futuro, ¡quiero hacerlo todos los días! Soy una persona sociable, me gusta aportar ideas y hacer que las cosas funcionen. Siento que estoy en un proceso de constante evolución y eso es lo que me inspira a querer saber de todo.
+                </p><br><br>
+            </div>
+        </section>
+        
+        <section id="estudios">
+            <hr class="border border-danger border-2 opacity-50">
+            <h2>Educación</h2><br>
+            <div>
+                <ul>
+                    <li>
+                        <h5>Estudios secundarios </h5>  
+                        Instituto superior Albert Einstein, provincia de La Rioja, orientación: bienes y servicio.
+                    </li><br>
+                    <li>
+                        <h5>Carrera universitaria </h5>
+                        Ingeniería electrónica <br>
+                        Facultad de ingeniería electrónica, universidad UTN (universidad tecnológica nacional) <br>
+                        En curso: 2011 – hasta 2016 (primer y segundo año completo)
+                    </li><br>
+                    <li>
+                        <h5>Carrera terciaria finalizada</h5>
+                        <p> Técnico superior en mecatrónica (2017-2020) Universidad UTN (universidad tecnológica nacional) </p>
+                    </li>
+                </ul>
+            </div>
+        </section> <br><br>
+        
+        <section id="cursos">
+            <hr class="border border-danger border-2 opacity-50">
+            <h2 >Cursos complementarios</h2><br>
+            <ul>
+                <h5>Inglés</h5>
+                <li>Instituto CAEX, provincia de La Rioja (2005 - 2007) <br>
+                    Oral: nivel básico <br>
+                    Escrito: nivel básico <br>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    Curso ingles conversación, gestionado por Agencia Cba joven. (2019) <br>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h5>Programación</h5>
+                    Python developer - full stack (Instituto IT, Buenos Aires) <br>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    Diplomatura en introducción a la programación en JAVA (Dictado por la UTN de Villa María, Córdoba)  <br>
+                </li>
+            </ul>
+            <ul>
+                <h5>Varios</h5>
+                <li>
+                    TDI (transformador de ideas), fundación E+E. <br> 
+                    Tiene que ver con los emprendimientos que tuve y los menciono más adelante. <br> 
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    Técnico soldador <br>
+                </li>
+            </ul>
+            
+        </section> <br><br>
+
+        <section id="exp">
+            <hr class="border border-danger border-2 opacity-50">
+            <h2 class="m-auto text-center">Experiencia laboral</h2><br><br>
+            <div >
+                <h5>ADMINISTRADOR DE DOS PLAYAS DE ESTACIONAMIENTO</h5>
+                <ul>
+                    <li>Comercios: San Agustín y Santo Domingo</li>
+                    <li>Trabajo por temporadas (durante vacaciones de verano e invierno)</li>
+                    <li>Tareas principales: control de cobros y gastos, mantenimientos varios, personal a cargo.</li>
+                </ul>       
+                <h5>ESTACIÓN DE SERVICIOS PETROBRAS (AV COLÓN 3380) </h5>
+                <ul>
+                    <li>Tareas principales: Atención al cliente y control de caja </li>
+                </ul>
+                <h5>API – AUTOMACIÓN INDUSTRIAL</h5>
+                <ul>
+                    <li>Tareas Principales: Ingeniería y mantenimiento.</li>
+                </ul> 
+                <h5>TECME – FABRICACION DE RESPIRADORES (Con carta recomendación) </h5> 
+                <ul>
+                    <li>Tareas Principales: Ensamblado conjunto neumático </li>
+                </ul>
+                <h5>INCAST – ASCENSORES (trabajo actual)</h5>
+                <ul>
+                    <li>Tareas Principales: Mantenimiento y reparación de ascensores. </li>
+                </ul> 
+            </div>
+        </section><br><br>
+
+        <section id="emp">
+            <hr class="border border-danger border-2 opacity-50">
+            <h2 class="m-auto text-center">Descripción breve de 2 emprendimientos </h2><br><br>
+            <div>
+                <p>El primero que tuve fue la produccion de mixes naturales (frutos secos) en el año 2017 <a href="https://www.instagram.com/mixesnaturales"><strong>Instagram</strong></a>  <br> 
+                El otro fue la impresión de objetos 3D en el año 2020, ya sea diseños para suplementar alguna pieza rota o productos de adornos como macetas, animales, lamparas, etc. <br>
+                A continuacion alguna de las impresiones que mas se vendian. <a href="https://www.instagram.com/xyz.3d"><strong>Instagram</strong></a></p><br><br>
+            </div>
+        
+    <!--------------------------------Slider de imagenes------------------------------------>
+
+            <div id="carouselExampleControls" class="carousel slide  bg-dark rounded-3" data-bs-ride="carousel" >
+                <div class="carousel-inner container-fluid bg-light" id="carrusel">
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active bg-light" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" class=" bg-light" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" class=" bg-light" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" class=" bg-light" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="4" class=" bg-light" aria-label="Slide 5"></button>
+                
+                    <div class="carousel-item active " data-bs-interval="3000">
+                        <img src="./img/elefanteEscurridor.jpg" class="d-block w-100" width="180" height="400"  alt="slide1">
+                    </div>
+                
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/reinaYRey.jpg" class="d-block w-100" width="200" height="450"  alt="slide2">
+                    </div>
+                
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/lampLuna.jpg" class="d-block w-100" width="180" height="450"  alt="slide3">
+                    </div>
+                
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/IMG_7189.jpg" class="d-block w-100"  width="180" height="350"  alt="slide4">
+                    </div>
+                
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/IMG_6836.jpg" class="d-block w-100" width="180" height="400"  alt="slide5">
+                    </div>
+                
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section><br><br>
+
+        <section id="contacto">
+            <div class="">
+                <hr class="border border-danger border-2 opacity-50">
+                <h2>Mis datos</h2> <br>
+                <ul>
+                    <li><h3>José Daniel Laiseca</h3></li>
+                    <li><h3>Cel:+ 549 3517050001</h3></li>
+                    <li><h3>E-mail: joselaiseca@outlook.es ; joselaiseca1@gmail.com</h3></li>
+                    <li><h3>Dirección: Córdoba, Argentina</h3></li>
+                </ul>
+            </div>
+        </section><br><br>
+
+    </section>
+
+   
+        
+    
+        <!---------------------------------------formularios ------------------------------------>
+    <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+
+        <div class="container" id="contenedor-formulario">
+            <div id="titulo-formulario" class="text-center mb-4">
+                <div><img src="./img/contacto.png" width="180" height="160" alt="contacto" class="img-fluid"></div>
+                <h2>Contactos</h2>
+                <p class="fs-5">Dejame tu opinión</p>
+            </div>
+
+
+            <form action="enviar.php" method="post">
+                <div class="mb-3">
+                    <input type="email" name="email" class="form-control" id="email" placeholder="name@example.com" required>
+                </div>
+                <div class="mb-3">
+                    <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Juan " required>
+                </div>
+                <div class="mb-3">
+                    <input type="tel" name="tel" class="form-control" id="tel" placeholder="+54 9 11 0000000" required>
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+                <div class="mb-3">
+                    <button type="submit" id="boton" class="btn btn-primary w-100 fs-5">Enviar mensaje</button>
+                </div>
+            </form>
+        </div>
+    </section>   
+
+    <!------------------------------- footer ------------------------------>
+    
+    <Footer class="w-100 d-flex align-items justify-content-center flex-wrap" >
+        <p>joselaiseca &copy; Todos los derechos reservados 2023</p>
+        <div id="iconos">
+            <a href="https://github.com/JoseLaiseca" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://linkedin.com/in/JoseLaiseca" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://web.whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a>
+        </div>
+    </Footer>
+    
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+    crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

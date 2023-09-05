@@ -1,0 +1,107 @@
+body{
+    overflow-x: hidden; 
+}
+nav {
+    position: fixed;
+}
+/* --------------MENU----------------------*/
+#menu {
+    position: sticky;
+}
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+    
+}
+
+
+#contenedor-formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+ 
+#titulo-formulario{
+    color: #3f3f3f;
+}
+
+
+
+#seccion-contacto{
+    min-height: 700px;
+    position: relative;
+}
+
+/* --------------SLIDER DE IMAGENES----------------------*/
+
+.carousel-inner{
+    max-height: 55rem;
+    height: 600px;
+    max-width: 30rem;;
+}
+
+/* ---------------Media queries pantalla SM-------------------------------------*/
+
+@media (max-width: 768){
+    #intro, #equipo{
+        width:90% !important ;
+    }
+
+    #equipo p{
+        display: none;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #bg-contacto {
+        top:-110px; 
+    }
+}
+
+/* ---------------Media queries pantalla SM-------------------------------------*/
+
+@media(max-width: 576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+
+    }
+}
+
+#perfil{
+    box-shadow: 2px 2px 30px 10px;
+}
+
+a{
+    color: rgb(51, 50, 50);
+}
+
+ul{
+    list-style: none;
+}
+
+footer{
+    background-color: #1b2a4e;
+    min-height: 100px;
+}
+footer p{
+    color: #f3f3f3;
+    text-align: center;
+}
+#iconos a{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+#iconos-nav a{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #3f3f3f;
+}
