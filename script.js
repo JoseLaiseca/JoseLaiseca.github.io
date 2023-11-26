@@ -11,7 +11,7 @@ typewriter
     .typeString('<strong> Bienvenidos </strong>')
     .pauseFor(300)
     .deleteChars(12)
-    .typeString('Soy José Laiseca y este es mi')
+    .typeString('Soy José Daniel Laiseca y este es mi')
     .typeString('<span style="color: #27ae60;"> CV</span> ')
     .pauseFor(1000)
     .start();
