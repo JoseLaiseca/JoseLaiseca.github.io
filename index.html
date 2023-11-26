@@ -307,7 +307,29 @@
             <a href="https://web.whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a>
         </div>
     </Footer>
-    
+    <script type="module">
+    // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+        apiKey: "AIzaSyCpejczVFt2BiidVuEAhQnXUMF5o6lwl5Y",
+        authDomain: "universal-torch-394900.firebaseapp.com",
+        projectId: "universal-torch-394900",
+        storageBucket: "universal-torch-394900.appspot.com",
+        messagingSenderId: "764372332041",
+        appId: "1:764372332041:web:33cea0a69710d0e3b812d8",
+        measurementId: "G-ZQN12TMQDJ"
+    };
+
+  // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
     
     
     
